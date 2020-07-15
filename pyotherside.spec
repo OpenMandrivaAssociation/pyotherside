@@ -1,19 +1,20 @@
 Name:    pyotherside
 Version: 1.5.9
-Release: %mkrel 1
+Release: 1
 Summary: Asynchronous Python 3 Bindings for Qt 5
 Group:   Development/KDE and Qt
 License: ISC
 URL:     https://github.com/thp/pyotherside/
-Source0: https://github.com/thp/pyotherside/archive/%{version}.tar.gz#/%{name}-%{version}.tar.gz
-BuildRequires: pkgconfig(python3)
+Source0: https://github.com/thp/pyotherside/archive/%{version}/%{name}-%{version}.tar.gz
+
+BuildRequires: pkgconfig(python)
 BuildRequires: pkgconfig(Qt5Qml)
 BuildRequires: pkgconfig(Qt5Quick)
 BuildRequires: pkgconfig(Qt5QuickTest)
 BuildRequires: pkgconfig(Qt5Svg)
 BuildRequires: pkgconfig(Qt5Test)
 BuildRequires: python3dist(sphinx)
-BuildRequires: qtbase5-devel >= 5.1.0
+BuildRequires: qtbase5-devel
 BuildRequires: x11-server-xvfb
 
 %description
