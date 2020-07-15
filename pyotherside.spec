@@ -26,7 +26,7 @@ A Qt 5 QML Plugin that provides access to a Python 3 interpreter from QML.
 %build
 %qmake_qt5
 %make_build
-%make_build -C docs SPHINXBUILD=sphinx-build-3 html
+%make_build -C docs SPHINXBUILD=sphinx-build html
 
 %check
 # Tests require an X server, although it doesn't seem to be used for much
