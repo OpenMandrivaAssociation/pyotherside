@@ -1,3 +1,5 @@
+%global debug_package %{nil}
+
 Name:    pyotherside
 Version: 1.5.9
 Release: 1
