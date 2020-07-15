@@ -14,7 +14,7 @@ BuildRequires: pkgconfig(Qt5QuickTest)
 BuildRequires: pkgconfig(Qt5Svg)
 BuildRequires: pkgconfig(Qt5Test)
 BuildRequires: python3dist(sphinx)
-BuildRequires: qtbase5-devel
+BuildRequires: qt5-qtbase-devel
 BuildRequires: x11-server-xvfb
 
 %description
