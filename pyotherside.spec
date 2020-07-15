@@ -37,7 +37,7 @@ xvfb-run tests/tests
 rm -rf %{buildroot}%{_qt5_testsdir}
 
 %files
-%{_qt5_qml}/io/thp/pyotherside
+#{_qt5_qml}/io/thp/pyotherside
 %doc docs/_build/html
 %license LICENSE
 %doc README
