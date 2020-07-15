@@ -39,7 +39,10 @@ xvfb-run tests/tests
 rm -rf %{buildroot}%{_qt5_testsdir}
 
 %files
-#{_qt5_qml}/io/thp/pyotherside
+%{_libdir}/qt5/qml/io/thp/pyotherside/libpyothersideplugin.so
+%{_libdir}/qt5/qml/io/thp/pyotherside/pyotherside.qmltypes
+%{_libdir}/qt5/qml/io/thp/pyotherside/qmldir
+%{_libdir}/qt5/tests/qtquicktests/qtquicktests
 %doc docs/_build/html
 %license LICENSE
 %doc README
