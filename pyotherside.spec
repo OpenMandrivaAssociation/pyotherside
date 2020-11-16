@@ -2,7 +2,7 @@
 
 Name:    pyotherside
 Version: 1.5.9
-Release: 1
+Release: 2
 Summary: Asynchronous Python 3 Bindings for Qt 5
 Group:   Development/KDE and Qt
 License: ISC
