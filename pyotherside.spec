@@ -9,6 +9,7 @@ License: ISC
 URL:     https://github.com/thp/pyotherside/
 Source0: https://github.com/thp/pyotherside/archive/%{version}/%{name}-%{version}.tar.gz
 
+BuildRequires:	make
 BuildRequires: pkgconfig(python)
 BuildRequires: pkgconfig(Qt5Qml)
 BuildRequires: pkgconfig(Qt5Quick)
