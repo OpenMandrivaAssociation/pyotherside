@@ -1,8 +1,8 @@
 %global debug_package %{nil}
 
 Name:    pyotherside
-Version: 1.5.9
-Release: 3
+Version: 1.6.2
+Release: 1
 Summary: Asynchronous Python 3 Bindings for Qt 5
 Group:   Development/KDE and Qt
 License: ISC
